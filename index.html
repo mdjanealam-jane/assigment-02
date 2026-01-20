@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="w-full max-w-[1600px]">
-        <nav class="flex items-center justify-around container pt-4  bg-indigo-950">
+    <header class="w-full max-w-[1600px] ">
+        <nav class="flex items-center justify-around container p-4  bg-indigo-950 w-full max-w-[1600px]">
             <h1 class="text-3xl md:text-5xl font-extrabold text-white">Tech<span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-600 to-purple-800">Wave</span></h1>
             <ul class="flex gap-[32px] text-white sm:text-[16px] text-[12px] font-medium hidden min-[576px]:flex">
                  <li class="cursor-pointer">About</li>
@@ -25,11 +25,11 @@
         </nav>
 
         <div class="hero">
-            <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center relative top-16">
                 <div class=""><img src="assets/hero-circle.png" alt=""></div>
-                <div class=""><img src="assets/microphone.png" alt=""></div>
+                <div class="absolute"><img src="assets/microphone.png" alt=""></div>
             </div>
-            <div class="hero-details">
+            <div class="hero-details relative top-15">
                 <h1>TechWave</h1>
                 <p class="text-white mb-1.5">Your daily dose of tech insights, productivity hacks, and personal growth</p>
                 <div class="">
@@ -102,7 +102,7 @@
 
         <div class="videos">
             <h1 class="text-[48px] text-white font-bold pt-[60px] mb-5 text-center">Featured Episodes</h1>
-            <div class="video-section">
+            <div class="w-full max-w-[1200px] md:flex m-auto pb-[120px]">
                 <div class="max-w-[380px] mr-4 bg-purple-950 rounded-3xl p-3.5">
                     <iframe class="mb-5" width="350" height="315" src="https://www.youtube.com/embed/MPXXmeW7dHI?si=5HozGkCHQTdUuii_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <h2 class="text-white text-[24px] font-bold mb-3.5">The Future of AI in Everyday Life</h2>
@@ -122,11 +122,38 @@
                     <p class="text-green-400"><i class="fa-solid fa-clock"></i>51 min</p>
                 </div>
             </div>
+            <div>
+                <h1 class="text-[48px] text-white text-center font-bold mb-[40px]">Meet The Host</h1>
+                <div class="host">
+                    <img src="assets/host.png" alt="the host">
+                    <div>
+                        <h1 class="text-[32px] text-white font-bold mb-[16px]">Alex Kumar</h1>
+                        <p class="text-gray-400 pb-[20px]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                        <div class="flex gap-6">
+                            <div><img src="assets/linkedin.png" alt=""></div>
+                            <div><img src="assets/twitter.png" alt=""></div>
+                            <div><img src="assets/instagram.png" alt=""></div>
+                            <div><img src="assets/youtube.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
     </main>
 
-    <footer>
-
+    <footer class="footer-section p-[142px]">
+        <div class="footer-item">
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white text-center pb-[20px]">Tech<span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-pink-600 to-purple-800">Wave</span></h1>
+            <div class="text-center pb-[30px]">
+                <button class="text-gray-300"><i class="fa-brands fa-spotify"></i> Spotify</button>
+                <button class="text-gray-300"><i class="fa-solid fa-podcast"></i> Apple Podcasts</button>
+                <button class="text-gray-300"><i class="fa-brands fa-youtube"></i> YouTube</button>
+                <button class="text-gray-300"><i class="fa-brands fa-twitter"></i> Twitter</button>
+            </div>
+            <footer class="text-center text-gray-400">&copy;2026 TechWave Podcasts. All rights reserved.
+            </footer>
+        </div>
     </footer>
 </body>
 </html>

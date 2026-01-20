@@ -61,6 +61,7 @@
     text-align: left;
     justify-content: center;
     padding: 0 auto;
+    padding-bottom: 120px;
 }
 .video-section{
     width: 100%;
@@ -68,4 +69,19 @@
     display: flex;
     margin: 0 auto;
     padding-bottom: 120px;
+}
+.host{
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #230E3D;
+    border-radius: 25px;
+    padding: 40px;
+}
+.footer-section{
+    background-image: url(assets/footer-bg.png);
+    width: 100%;
+    max-width: 1600px;
 }
