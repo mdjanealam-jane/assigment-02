@@ -18,7 +18,7 @@ body {
     padding-bottom: 60px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .hero { padding-bottom: 101px; }
 }
 
@@ -45,7 +45,7 @@ body {
     border-bottom: solid 1px rgb(51, 50, 50);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .about-title p {
         margin-bottom: 80px;
         padding: 0 55px 80px 55px;
@@ -62,7 +62,7 @@ body {
     padding: 0 20px 60px 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .rating {
         justify-content: space-around;
         padding: 0 100px 120px 100px;
@@ -98,7 +98,7 @@ body {
     padding: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .host {
         flex-direction: row;
         padding: 40px;
@@ -114,6 +114,6 @@ body {
     padding: 60px 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
     .footer-section { padding: 142px; }
 }
